@@ -1,0 +1,65 @@
+.hero {
+  background: none;
+  background-color: #212121;
+}
+
+.summary {
+  color: white;
+}
+
+.footer {
+  background: none;
+}
+
+.footermenu a {
+  color: #b0b0b0;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footermenu a:hover {
+  color: #e9dbcd;
+}
+
+.footermenu {
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.footer-bottom {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.footer,
+.footer-bottom {
+  background-color: #212121;
+}
+
+.rowTitle {
+  text-align: center;
+  display: block;
+  font-size: 32px;
+  font-weight: 400;
+  color: #333;
+  position: relative;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+.rowTitle p {
+  display: inline-block;
+  width: auto;
+}
+
+.rowTitle p::before {
+  content: '';
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  top: 52px;
+  width: 80%;
+  height: 4px;
+  background-color: red;
+}
+/*# sourceMappingURL=custom2.css.map */
